@@ -64,8 +64,14 @@ content:
         title: TutorMe – AI-Powered Learning Platform
         caption: September 2025 – Present
         description: |
-          - Built a microservices-based AI tutoring platform & scheduler using React.js, Node.js, and Docker.
-          - Designed & integrated a RAG pipeline (Voyage AI + Qdrant) with OpenAI GPT to generate contextual quizzes, flashcards, podcasts from multimodal student content.
+          An intelligent learning companion built to solve fragmented learning and inefficient live lectures.
+
+          - Built a microservices-based platform using **Node.js/Express**, **Next.js**, deployed on **Vercel** and cloud **Kubernetes (Oracle OKE)** with CI/CD, auto-scaling, and self-healing.
+          - Designed & integrated a RAG pipeline with OpenAI GPT to generate contextual **quizzes, flashcards, and podcasts** from multimodal student content.
+          - Implemented **Smart Study Planner** with personalized calendar and study roadmaps.
+          - Added **Lecture Recording & Transcription** with Urdu transcript support.
+          - Integrated **Live Chat & Q&A** during lectures with real-time interaction.
+          - Used **MongoDB Atlas** (Database), **Cloudflare R2** (Storage), **Firebase** (Auth & Services), **Redis/Upstash** (Caching & Queuing), **Docker** (Containerization), and **Stripe** for payments.
           - Implemented OAuth 2.0 authentication and AES-256 encryption for secure user access.
       - layout: left
         title: Student Registration System – Relational Database
@@ -172,15 +178,24 @@ content:
       - Student Council Member – LGS
 
   - title: Skills & Interests
-    layout: text
-    content: |
-      **Technical Skills:** Python | C++ | JavaScript | SQL | MATLAB | Haskell | React.js | Node.js | Docker | Git | Unity | UML | Canva | Microsoft Excel
-
-      **Data & ML:** Machine Learning | Statistical Modeling | Database Design
-
-      **Professional Skills:** Problem-Solving | Analytical Thinking | Team Collaboration | Communication | Strategic Thinking
-
-      **Interests:** AI & Emerging Technologies | FinTech | Data-Driven Decision Making | Stock Market | Global Affairs | History | Football
+    layout: list
+    content:
+      - layout: left
+        title: Technical Skills
+        description: |
+          Python | C++ | JavaScript | SQL | MATLAB | Haskell | React.js | Node.js | Docker | Git | Unity | UML | Canva | Microsoft Excel
+      - layout: left
+        title: Data & ML
+        description: |
+          Machine Learning | Statistical Modeling | Database Design
+      - layout: left
+        title: Professional Skills
+        description: |
+          Problem-Solving | Analytical Thinking | Team Collaboration | Communication | Strategic Thinking
+      - layout: left
+        title: Interests
+        description: |
+          AI & Emerging Technologies | FinTech | Data-Driven Decision Making | Stock Market | Global Affairs | History | Football
   
 #   - title: A Little More About Me
 #     layout: text
