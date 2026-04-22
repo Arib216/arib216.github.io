@@ -146,7 +146,7 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          **Relevant Courses:** Data Science | Artificial Intelligence | Database Systems | Computer Graphics | Algorithms | Network Security | Probability & Statistics | Econometrics | Linear Algebra | Financial Economics
+          Data Science | Artificial Intelligence | Database Systems | Computer Graphics | Algorithms | Network Security | Probability & Statistics | Econometrics | Linear Algebra | Financial Economics
       - layout: top-right
         title: Lahore Grammar School JT
         sub_title: A-Level – 1A 3B, O-Level – 4A* 5A
