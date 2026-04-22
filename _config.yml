@@ -50,7 +50,7 @@ linkedin_username: arib216
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/Profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Computer Science undergraduate at LUMS with an Economics minor, specializing in data science and machine
   learning. Proven experience building end-to-end AI-driven systems, statistical models, and scalable data applications.
